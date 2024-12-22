@@ -24,6 +24,41 @@ Within app developer accounts, you can create developer test accounts to test ap
 
 **_These accounts are only for development and testing purposes. In production you should not use Developer Test Accounts._**
 
+1. Go to Test accounts section from the left sidebar.
+<img src="../docs/resources/test-account.png" width="70%">
+
+2. Click on the `Create developer test account` button on the top right corner.
+<img src="../docs/resources/create-test-account.png" width="70%">
+
+3. In the pop-up window, provide a name for the test account and click on the `Create` button.
+<img src="../docs/resources/create-account.png" width="70%">
+
+4. You will see the newly created test account in the list of test accounts.
+<img src="../docs/resources/test-account-portal.png" width="70%">
+
+### Step 3: Create a HubSpot App
+
+1. Now navigate to the `Apps` section from the left sidebar and click on the `Create app` button on the top right corner.
+<img src="../docs/resources/create-app.png" width="70%">
+
+2. Provide a public app name and description for your app.
+<img src="../docs/resources/app-name-desc.png" width="70%">
+
+### Step 4: Setup Authentication
+
+1. Move to the `Auth` tab.
+<img src="../docs/resources/config-auth.png" width="70%">
+
+2. In the `Scopes` section, add the following scopes for your app using the `Add new scopes` button.
+<img src="../docs/resources/add-scopes.png" width="70%">
+
+3. In the `Redirect URL` section, add the redirect URL for your app. This is the URL where the user will be redirected after the authentication process. You can use localhost for testing purposes. Then hit the `Create App` button.
+<img src="../docs/resources/redirect-url.png" width="70%">
+
+### Step 5: Get the Client ID and Client Secret
+
+Navigate to the `Auth` tab and you will see the `Client ID` and `Client Secret` for your app. Make sure to save these values.
+<img src="../docs/resources/client-id-secret.png" width="70%">
 
 
 ## Quickstart
