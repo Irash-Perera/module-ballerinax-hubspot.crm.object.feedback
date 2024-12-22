@@ -51,13 +51,13 @@ Within app developer accounts, you can create developer test accounts to test ap
 
 
 2. In the `Scopes` section, add the following scopes for your app using the `Add new scopes` button.
-   -`e-commerce`
-   -`tickets`
-   -`crm.objects.goals.read`
-   -`media_bridge.read`
-   -`crm.objects.custom.read`
-   -`crm.objects.custom.write`
-   -`crm.objects.feedback_submissions.read`
+   - `e-commerce`
+   - `tickets`
+   - `crm.objects.goals.read`
+   - `media_bridge.read`
+   - `crm.objects.custom.read`
+   - `crm.objects.custom.write`
+   - `crm.objects.feedback_submissions.read`
 
 <img src="../docs/resources/add-scopes.png" width="70%">
 
