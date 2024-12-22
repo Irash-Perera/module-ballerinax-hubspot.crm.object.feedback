@@ -57,7 +57,8 @@ Within app developer accounts, you can create developer test accounts to test ap
    -`media_bridge.read`
    -`crm.objects.custom.read`
    -`crm.objects.custom.write`
-   
+   -`crm.objects.feedback_submissions.read`
+
 <img src="../docs/resources/add-scopes.png" width="70%">
 
 3. In the `Redirect URL` section, add the redirect URL for your app. This is the URL where the user will be redirected after the authentication process. You can use localhost for testing purposes. Then hit the `Create App` button.
